@@ -1,0 +1,32 @@
+.add-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: "#2D4048"; */
+}
+
+.prev-template-wrapper {
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prev-template-container {
+  border: 2px solid lightgrey;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.prev-template-wrapper:hover .prev-template-container {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}

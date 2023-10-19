@@ -1,0 +1,79 @@
+.container {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resumePreviewContainer {
+  flex: 5;
+  padding: 50px;
+  background-color: grey;
+}
+
+.personalInfoHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userName {
+  margin: 0;
+}
+
+.contactDetailsContainer {
+  display: flex;
+  gap: 4px;
+}
+
+.contactDetails {
+  margin: 0;
+}
+
+.sectionHeading {
+  margin: 0;
+}
+
+hr {
+  color: black;
+  border: 0.2px solid black;
+}
+
+/* Education , Experience*/
+
+.universityNameAndLocation,
+.positionAndDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.degreeNameAndDuration,
+.companyNameAndLocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.universityDetails,
+.experienceDetails,
+.projectDetails {
+  margin-bottom: 4px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.projectHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectNameAndTechStack {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

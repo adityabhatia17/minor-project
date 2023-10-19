@@ -1,0 +1,165 @@
+.login-container {
+  display: flex;
+  align-items: stretch;
+  padding: 80px 90px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #ccf4e5;
+}
+
+.left-side {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.right-side {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+}
+
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-header,
+.signup-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-card {
+  background-color: white;
+  padding: 40px 50px;
+  width: 100%;
+  height: 20rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 35rem;
+}
+
+.signup-card {
+  background-color: white;
+  padding: 40px 50px;
+  width: 100%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 35rem;
+}
+
+.heading {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #2d4048;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+  border: none;
+}
+
+button {
+  padding: 10px 50px;
+  background-color: white;
+  color: #858585;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-login {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom-content-flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18rem;
+}
+
+@media screen and (max-width: 912px) {
+  .login-container {
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 28px;
+    height: 100%;
+  }
+
+  .left-side {
+    flex: none;
+    gap: 21px;
+  }
+
+  .right-side {
+    flex: none;
+  }
+
+  .left-side,
+  .right-side {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .bottom-content-flex {
+    margin-bottom: 0;
+  }
+
+  .right-side-container {
+    width: 100%;
+    align-items: normal;
+  }
+
+  .google {
+    padding: 5px 12px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+  .signup-card,
+  .login-card {
+    width: auto;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 915px) {
+  .google {
+    padding: 5px 8px;
+  }
+}

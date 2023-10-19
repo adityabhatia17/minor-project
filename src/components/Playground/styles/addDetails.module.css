@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  padding: 40px;
+  flex: 5;
+}
+
+.saveBtnContainer {
+  text-align: end;
+}
+
+.fieldsContainer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
